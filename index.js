@@ -1,5 +1,6 @@
 // passes first test but not second test
 // in 2 parts
+/*
 function superbowlWin(records){
     debugger;
     const winResult = records.find(winningYear);
@@ -11,6 +12,7 @@ function superbowlWin(records){
 const winningYear = function(record) {
     return record.result === 'W'  
 }
+*/
 
 
 // passes first test but not second test
@@ -31,14 +33,14 @@ function superbowlWin(records){
 
 // written with an if, else condition ; in 2 parts
 // passes second test but not first
-/*
+
 function superbowlWin(records){
     const winResult = records.find(winningYear);
-    if (winResult === true){
+    if (!!winResult === true){
         return winResult.year
     }
-    else if (winResult === false){
-        return undefined;
+    else {
+        return undefined
     }
     
 }
@@ -46,7 +48,8 @@ function superbowlWin(records){
 const winningYear = function(record) {
     return record.result === 'W'  
 }
-*/
+
+
 
 
 
